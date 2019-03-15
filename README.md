@@ -12,7 +12,7 @@ allprojects {
 add following dependency in app level gradle file
 
 	dependencies {
-	        implementation 'com.github.svcodelabs:svc-toast:Tag'
+	        implementation 'com.github.svcodelabs:svc-toast:1.09'
 	}
 
 Usage:

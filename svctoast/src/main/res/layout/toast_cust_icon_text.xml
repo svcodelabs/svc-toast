@@ -9,7 +9,7 @@
     android:layout_margin="8dp"
     android:orientation="vertical"
     app:cardBackgroundColor="@color/grey_90"
-    app:cardCornerRadius="32dp"
+    app:cardCornerRadius="23dp"
     app:cardElevation="0dp">
 
     <LinearLayout
@@ -38,9 +38,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:maxLines="2"
             android:ellipsize="end"
-            android:text="Error Toast Error Toast Error Toast Error Toast Error Toast Error Toast"
+            android:text="Error Toast Error Toast "
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textColor="@color/grey_5" />
 

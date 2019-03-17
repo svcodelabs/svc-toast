@@ -17,20 +17,20 @@
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
         android:orientation="horizontal"
-        android:paddingBottom="@dimen/spacing_middle"
-        android:paddingLeft="@dimen/spacing_smlarge"
-        android:paddingRight="@dimen/spacing_smlarge"
-        android:paddingTop="@dimen/spacing_middle">
+        android:paddingBottom="12dp"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:paddingTop="12dp">
 
         <ImageView
             android:id="@+id/icon"
-            android:layout_width="@dimen/spacing_mlarge"
-            android:layout_height="@dimen/spacing_mlarge"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:tint="@android:color/white"
             app:srcCompat="@drawable/ic_close" />
 
         <View
-            android:layout_width="@dimen/spacing_middle"
+            android:layout_width="12dp"
             android:layout_height="0dp" />
 
         <TextView
@@ -44,7 +44,7 @@
             android:textColor="@color/grey_5" />
 
         <View
-            android:layout_width="@dimen/spacing_middle"
+            android:layout_width="12dp"
             android:layout_height="0dp" />
 
     </LinearLayout>
